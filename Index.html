@@ -7,11 +7,120 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <!-- Reset
+    <link rel="stylesheet" href="Resources/CSS/Reset.css" type="text/css">
+    -->
+    <link rel="stylesheet" href="Resources/CSS/Style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Jumpstart</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Nav Bar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="explore" href="#">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Start a project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-end">
+              <img src="Resources/Images/logo.png">
+          </div>
+        </div>
+      </nav>
+
+      <!-- Landing Jumbotron -->
+
+      <div class="jumbotron landing text-center">
+          <div id="content">
+          <h1 class="display-1">GET GOING</h1>
+          <h4>Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</h4>
+          <a class="btn btn-primary btn-lg button">Jump in</a>
+          </div>
+      </div>
+
+      <!-- Content Section -->
+
+      <div class="fluid-container main">
+
+        <div class="row">
+            <h3 class="featured">Featured project</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img id="featured-img" src="Resources/Images/featured-project.png" alt="House">
+            </div>
+            <div class="col-lg-3">
+                <h4>DeFrost: A Documentary</h4>
+                <p>By Leo De Firenze</p>
+                <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood. This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern Italy â€” through beautiful cinematography and narration.</p>
+            </div>
+            <div class="col-lg-3">
+                <h4>Product Categories</h4>
+                <p>Art<br>Books<br>Crystals<br>Design<br>Doodles<br>Deedlybobs<br>Farming<br>Gadgets<br>Hoverboards<br>Jams, Jellies, Etc.<br>Magazines<br>Plants<br>Snakes & Snake Equipment<br>Tables<br>Ventriliquist Figures<br>Yoyos</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="featured">Projects</h3>
+        </div>
+
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="card" style="width: 100%;">
+            <img src="Resources/Images/project1.png" class="card-img-top" alt="Legs">
+            <div class="card-body">
+                <h5 class="card-title">The Right Tights</h5>
+                <p class="card-text">By Riley Mae<br><br>These tights are 50 denier, beautifully constructed, hand-dyed, and guaranteed to last (no more ladders!). Made with high quality, completely toxic-free materials. Custom colors available to all backers.</p>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+                <div class="card" style="width: 100%;">
+                        <img src="Resources/Images/project2.png" class="card-img-top" alt="Legs">
+                        <div class="card-body">
+                            <h5 class="card-title">Peppermint Smart Home</h5>
+                            <p class="card-text">By Brian McDonald<br><br>Instantly upgrade your home with technology that keeps your family and home safe. We've made Peppermint easy to use. Just talk to your phone and Peppermint will help you every step of the way.</p>
+                        </div>
+                        </div>
+        </div>
+        <div class="col-lg-4">
+                <div class="card" style="width: 100%;">
+                        <img src="Resources/Images/project3.png" class="card-img-top" alt="Legs">
+                        <div class="card-body">
+                            <h5 class="card-title">American Street Life</h5>
+                            <p class="card-text">By Patrick Wallace<br><br>I've been traveling around the United States for the past two years. I've slept on hundreds of couches, more than a few benches, and captured my experiences in this 120 page photo album.</p>
+                        </div>
+                        </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- Footer Jumbotron -->
+
+      <div class="jumbotron foot text-center">
+          <div id="footer-content">
+              <h2>Having trouble thinking of an idea?</h2>
+              <p>Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
+              <a href="#" class="btn btn-primary btn-lg button">Learn more</a>
+          </div>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
